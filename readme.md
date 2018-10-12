@@ -1,5 +1,5 @@
 # hero-valley v1.0.0
-hero-vally is an utility to create website hero section. The library includes the JavaScript logic related to scroll as well as the minimun CSS styles.
+hero-valley is an utility to create website hero section. The library includes the JavaScript logic related to scroll as well as the minimun CSS styles.
 
 ## Installation and customization
 Donwload the zip and unzip it. Import the library into your HTML code before the **<body>** closing tag. The library needs a component to be used as hero-section as well as an anchor element to trigger the scroll (move) to a top component. To explain an example we will do it with a Section with ID **#heroSection**, an anchor with ID **#scrollButton** and a top sectio where move to with ID **#topSection**.
@@ -60,7 +60,7 @@ To prevent the URL to be modified and load it, we have added the prevent default
 
 The Event interface's preventDefault() method tells the user agent that if the event does not get explicitly handled, its default action should not be taken as it normally would be. The event continues to propagate as usual.
 
-To scroll to the defined as top section, we're using the **animate** jQuery method as well as it **scrollTop** property.
+To scroll to the defined as top section, we're using the **animate** jQuery method as well as it **scrollTop** property. We set the scrollTop to the value of the button top position
 
 ```javaScript
 $('html, body').animate({
