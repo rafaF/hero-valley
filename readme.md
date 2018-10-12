@@ -60,7 +60,7 @@ To prevent the URL to be modified and load it, we have added the prevent default
 
 The Event interface's preventDefault() method tells the user agent that if the event does not get explicitly handled, its default action should not be taken as it normally would be. The event continues to propagate as usual.
 
-To scroll to the defined as top section, we're using the **animate** jQuery method as well as it **scrollTop** property. We set the scrollTop to the value of the button top position
+To scroll to the defined as top section, we're using the **animate** jQuery method as well as it **scrollTop** property. We set the scrollTop property to the value of the button top position.
 
 ```javaScript
 $('html, body').animate({
